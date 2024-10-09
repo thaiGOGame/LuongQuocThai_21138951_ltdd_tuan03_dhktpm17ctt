@@ -17,49 +17,49 @@ export default function App({ navigation }) {
       type: 'Vegetable',
       name: 'Apple',
       price: '28.00',
-      image: require('../assets/images/Image 101.png'),
+      image: require('../assets/images/Image101.png'),
     },
     {
       key: '2',
       type: 'Vegetable',
       name: 'Pear',
       price: '28.00',
-      image: require('../assets/images/Image 102.png'),
+      image: require('../assets/images/Image102.png'),
     },
     {
       key: '3',
       type: 'Vegetable',
       name: 'Coconut',
       price: '28.00',
-      image: require('../assets/images/Image 103.png'),
+      image: require('../assets/images/Image103.png'),
     },
     {
       key: '4',
       type: 'Seafood',
       name: 'Seafood 1',
       price: '28.00',
-      image: require('../assets/images/Image 95.png'),
+      image: require('../assets/images/Image95.png'),
     },
     {
       key: '5',
       type: 'Seafood',
       name: 'Seafood 2',
       price: '28.00',
-      image: require('../assets/images/Image 95.png'),
+      image: require('../assets/images/Image95.png'),
     },
     {
       key: '6',
       type: 'Drink',
       name: 'Drink 1',
       price: '28.00',
-      image: require('../assets/images/Image 95.png'),
+      image: require('../assets/images/Image95.png'),
     },
     {
       key: '7',
       type: 'Drink',
       name: 'Drink 2',
       price: '28.00',
-      image: require('../assets/images/Image_96.png'),
+      image: require('../assets/images/Image96.png'),
     },
   ]);
 
@@ -90,7 +90,7 @@ export default function App({ navigation }) {
           }} // Đặt onPress tại đây
         >
           <Image
-            source={require('../assets/images/Image 183.png')}
+            source={require('../assets/images/Image183.png')}
             style={{ height: 25, width: 25 }}
           />
           <Text style={{ marginLeft: 10 }}>First Screen</Text>{' '}
@@ -112,7 +112,7 @@ export default function App({ navigation }) {
           }} // Đặt onPress tại đây
         >
           <Image
-            source={require('../assets/images/Image 182.png')}
+            source={require('../assets/images/Image182.png')}
             style={{ height: 25, width: 25 }}
           />
           <Text style={{ marginLeft: 10 }}>Third Screen</Text>{' '}

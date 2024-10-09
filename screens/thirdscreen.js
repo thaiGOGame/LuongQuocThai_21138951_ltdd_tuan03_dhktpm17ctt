@@ -2,15 +2,15 @@ import { StyleSheet, Text, View, ScrollView, Image, TextInput, TouchableOpacity,
 import React, { useState } from 'react';
 export default function app({ navigation }) {
   const [data, setData] = useState([
-    { key: '1', type: 'Vegetable', name: 'Apple', price: '28.00', image: require('../assets/images/Image 101.png') },
-    { key: '2', type: 'Vegetable', name: 'Pear', price: '28.00', image: require('../assets/images/Image 102.png') },
-    { key: '3', type: 'Vegetable', name: 'Coconut', price: '28.00', image: require('../assets/images/Image 103.png') },
+    { key: '1', type: 'Vegetable', name: 'Apple', price: '28.00', image: require('../assets/images/Image101.png') },
+    { key: '2', type: 'Vegetable', name: 'Pear', price: '28.00', image: require('../assets/images/Image102.png') },
+    { key: '3', type: 'Vegetable', name: 'Coconut', price: '28.00', image: require('../assets/images/Image103.png') },
 
-    { key: '4', type: 'Seafood', name: 'Seafood 1', price: '28.00', image: require('../assets/images/Image 95.png') },
-    { key: '5', type: 'Seafood', name: 'Seafood 2', price: '28.00', image: require('../assets/images/Image 95.png') },
+    { key: '4', type: 'Seafood', name: 'Seafood 1', price: '28.00', image: require('../assets/images/Image95.png') },
+    { key: '5', type: 'Seafood', name: 'Seafood 2', price: '28.00', image: require('../assets/images/Image95.png') },
 
-    { key: '6', type: 'Drink', name: 'Drink 1', price: '28.00', image: require('../assets/images/Image_96.png') },
-    { key: '7', type: 'Drink', name: 'Drink 2', price: '28.00', image: require('../assets/images/Image_96.png') },
+    { key: '6', type: 'Drink', name: 'Drink 1', price: '28.00', image: require('../assets/images/Image96.png') },
+    { key: '7', type: 'Drink', name: 'Drink 2', price: '28.00', image: require('../assets/images/Image96.png') },
   ]);
   const [type, setType] = useState("Vegetable");
   const [selectedBtn, setSelectedBtn] = useState("Vegetable");
@@ -20,7 +20,7 @@ export default function app({ navigation }) {
       <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', padding: 20, backgroundColor: 'white' }}>
         {/*Touchop navigate to Second Screen with image w 25 h 25 */}
         <TouchableOpacity onPress={() => navigation.navigate('Second Screen')}>
-          <Image source={require('../assets/images/Image 183.png')} style={{ width: 25, height: 25 }} />
+          <Image source={require('../assets/images/Image183.png')} style={{ width: 25, height: 25 }} />
         </TouchableOpacity>
       </View>
       {/* view justcon center height 50 paddingh 20, inside is text size 25 green bold My Basket*/}
@@ -37,16 +37,16 @@ export default function app({ navigation }) {
                 <Text style={{ fontSize: 16, color: 'gray' }}>Price: ${item.price}</Text>
                 <View style = {{flexDirection:'row'}}>
                   {/*image with source require Image 180.png w 15 h 15 marginTop 10 */}
-                  <Image source={require('../assets/images/Image 180.png')} style={{ width: 15, height: 15, marginTop: 10 }} />
-                  <Image source={require('../assets/images/Image 180.png')} style={{ width: 15, height: 15, marginTop: 10 }} />
-                  <Image source={require('../assets/images/Image 180.png')} style={{ width: 15, height: 15, marginTop: 10 }} />
-                  <Image source={require('../assets/images/Image 180.png')} style={{ width: 15, height: 15, marginTop: 10 }} />
-                  <Image source={require('../assets/images/Image 180.png')} style={{ width: 15, height: 15, marginTop: 10 }} />
+                  <Image source={require('../assets/images/Image180.png')} style={{ width: 15, height: 15, marginTop: 10 }} />
+                  <Image source={require('../assets/images/Image180.png')} style={{ width: 15, height: 15, marginTop: 10 }} />
+                  <Image source={require('../assets/images/Image180.png')} style={{ width: 15, height: 15, marginTop: 10 }} />
+                  <Image source={require('../assets/images/Image180.png')} style={{ width: 15, height: 15, marginTop: 10 }} />
+                  <Image source={require('../assets/images/Image180.png')} style={{ width: 15, height: 15, marginTop: 10 }} />
                 </View>
                 <View style = {{flexDirection:'row', marginLeft:140, alignItems:'center'}}>
                   {/*image with source require Image 180.png w 15 h 15 marginTop 10 */}
-                  <Image source={require('../assets/images/Image 176.png')} style={{ width: 15, height: 15, marginTop: 10 }} />
-                  <Image source={require('../assets/images/Image 175.png')} style={{ width: 15, height: 15, marginTop: 10 }} />
+                  <Image source={require('../assets/images/Image176.png')} style={{ width: 15, height: 15, marginTop: 10 }} />
+                  <Image source={require('../assets/images/Image175.png')} style={{ width: 15, height: 15, marginTop: 10 }} />
                 </View>
                 </View></View>
           )}/>
